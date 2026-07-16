@@ -22,7 +22,7 @@ The theoretical logic behind each single-channel haptic feedback module was gene
 | LM358 Dual Op-Amp | 1 | Comparator logic |
 | Mini Disc Vibrating Motor | 2 | Haptic feedback |
 | 2N2222 NPN Transistor | 3 | Load switching |
-| 1N4001 Diode | 3 | Flyback protection |
+| 1N4001 Diode | 2 | Flyback protection |
 | 6mm Laser LED (650nm) | 1 | Path reference |
 | Resistors (10k) | 4 | Used in voltage dividers|
 | Resistors (470) | 3 | Base current limiting for transistors |
