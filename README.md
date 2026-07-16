@@ -2,7 +2,7 @@
 
 A functional laser-powered haptic navigation wearable prototype designed to guide users to align their paths using a reference laser LED. 
 
-Current Status: Proof of Concept
+**Current Status:** ***Proof of Concept***
 
 ## Project Overview
 
@@ -26,9 +26,11 @@ The theoretical logic behind each single-channel haptic feedback module was gene
 | 6mm Laser LED (650nm) | 1 | Path reference |
 | Resistors (10k, 470, 100) | 7 | Passive biasing/current limiting |
 
-### Project Documentation - pre-test
+### Project Documentation: pre-test
 ![Single-channel haptic feedback module circuit schematic](circuit-20260716-1126.png)
 
 ![Single-channel haptic feedback module circuit schematic - text file](single-channel-haptic-feedback-loop.txt)
 
 ![Inductive Load Management - scope data](scope-data.csv)
+
+### Project Documentation: pre-test
