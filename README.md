@@ -2,7 +2,7 @@
 
 A functional laser-powered haptic navigation wearable prototype designed to guide users to align their paths using a reference laser LED. 
 
-**Current Status:** ***Proof of Concept***
+![Status: Proof of Concept](https://img.shields.io/badge/Status-Proof_of_Concept-yellow)
 
 ## Project Overview
 
@@ -19,18 +19,24 @@ The theoretical logic behind each single-channel haptic feedback module was gene
 | Component | Quantity | Purpose |
 | :--- | :---: | :--- |
 | Infrared Sensor Module | 2 | Obstacle detection |
-| LM358 Dual Op-Amp | 2 | Comparator logic |
+| LM358 Dual Op-Amp | 1 | Comparator logic |
 | Mini Disc Vibrating Motor | 2 | Haptic feedback |
 | 2N2222 NPN Transistor | 3 | Load switching |
 | 1N4001 Diode | 3 | Flyback protection |
 | 6mm Laser LED (650nm) | 1 | Path reference |
-| Resistors (10k, 470, 100) | 7 | Passive biasing/current limiting |
+| Resistors (10k) | 4 | Used in voltage dividers|
+| Resistors (470) | 3 | Base current limiting for transistors |
+| Resistors (100) | 1 | Dummy load for power bank |
 
-### Project Documentation: pre-test
+### Project Documentation: PRE-TEST
 ![Single-channel haptic feedback module circuit schematic](circuit-20260716-1126.png)
+
+**NOTE:** This schematic is not fully representative of its practical counterpart, and is merely generated to verify the module's control logic.
 
 ![Single-channel haptic feedback module circuit schematic - text file](single-channel-haptic-feedback-loop.txt)
 
 ![Inductive Load Management - scope data](scope-data.csv)
 
-### Project Documentation: pre-test
+### Project Documentation: BREADBOARD PROTOTYPE
+
+### Thoughts on Final Design
